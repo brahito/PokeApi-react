@@ -70,6 +70,8 @@ button{
 
 .card_img img{
   margin-top: 10px;
+  max-height: 80px;
+  max-width: 80px;
 }
 
 .card_types{
