@@ -8,7 +8,7 @@ export const PokeApi = () => {
     const [search, setSearch] = useState('')
     const [pokemon, setPokemon] = useState([]);
     const [loading, setLoading] = useState(false);
-    const url = `https://pokeapi.co/api/v2/pokemon`;
+    const url = `https://pokeapi.co/api/v2/pokemon?limit=150`;
 
    
     
@@ -33,7 +33,9 @@ export const PokeApi = () => {
 
     return (
         <>
+
             <NavBar setSearch={setSearch}/>
+            
             <div>
             <div className="btn">
                 <button >Prev</button>
