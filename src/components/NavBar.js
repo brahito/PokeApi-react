@@ -38,11 +38,6 @@ export const NavBar = ({setSearch}) => {
                     />
                 </form>
             </div>
-
-            {/* <div className="buttons">        
-                <button onClick={reset}>Shiny</button>
-                <button onClick={reset}>Default</button>
-            </div> */}
         </>
     )
 }

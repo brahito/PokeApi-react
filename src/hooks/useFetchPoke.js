@@ -17,6 +17,7 @@ export const useFetchPoke = () => {
     }, [])
 
     const loadingPokemon = async(data) =>{
+        
         let pokemonData = await Promise.all(data.map(async pokemon =>{
             let pokemonRecord = await getPokemonData(pokemon.url);
             return pokemonRecord
